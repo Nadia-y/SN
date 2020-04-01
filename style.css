@@ -39,16 +39,12 @@ header{
     list-style-type: disc; 
     color:rgb(73, 78, 98);
 }
-.menu li.active{
-    list-style: none;
-}
-.menu li.active a{
-    color:#f06c64;
-}
+
+
 .menu li a{
     text-transform: uppercase;
     text-decoration: none;
-    color:white;
+    color:#f06c64;
     text-align: center;
     line-height: 42px;
     border-right: 20px;
@@ -57,6 +53,12 @@ header{
     align-items: center;
     letter-spacing: 0px;
 }
+.active {
+    background-color: white;
+    color:red;
+   
+}
+
 .slider{
     background-color: #f06c64;
     padding: 50px 0 60px 0;
